@@ -3,3 +3,5 @@ target
 project/target
 akka-simple-cluster/target
 akka-simple-cluster/project/target
+akka-zk-cluster/target
+akka-zk-cluster/project/target
