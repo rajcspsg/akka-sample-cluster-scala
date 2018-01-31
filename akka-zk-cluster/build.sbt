@@ -5,8 +5,9 @@ description := "Akka Clustering using zookeeper"
 
 val akkaVersion = "2.5.9"
 
+resolvers +=
+  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+
 libraryDependencies ++= Seq(
-    "com.typesafe.akka" %% "akka-actor" % akkaVersion,
-    "com.typesafe.akka" %% "akka-cluster" % akkaVersion,
-      "com.sclasen" %% "akka-zk-cluster-seed" % "0.1.9"
+      "com.sclasen" % "akka-zk-cluster-seed_2.12" % "0.1.10-SNAPSHOT"
   )
